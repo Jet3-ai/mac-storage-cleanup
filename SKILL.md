@@ -1,12 +1,14 @@
 ---
 name: mac-storage-cleanup
 description: |
-  Use when a user asks to investigate or clean macOS disk space, especially when Storage Settings show oversized apps, chat apps, Docker, local LLMs, browser models, Git repositories, APFS snapshots, or "System Data" consuming unexpected space. Guides Codex through evidence-first scanning, safe cleanup tiers, macOS container paths, and post-cleanup verification.
+  Use when a user asks an agent to investigate or clean macOS disk space, especially when Storage Settings show oversized apps, chat apps, Docker, local LLMs, browser models, Git repositories, APFS snapshots, or "System Data" consuming unexpected space. Guides the agent through evidence-first scanning, safe cleanup tiers, macOS container paths, and post-cleanup verification.
 ---
 
 # macOS Storage Cleanup
 
-This skill helps Codex safely diagnose and clean macOS disk usage. It is for hands-on local cleanup where accuracy matters and accidental data loss would be expensive.
+This skill helps an AI coding/local-automation agent safely diagnose and clean macOS disk usage. It is for hands-on local cleanup where accuracy matters and accidental data loss would be expensive.
+
+It is intended to be portable across Codex, Claude Code, OpenClaw, WorkBuddy, KimiClaw, and similar agents. Platform-specific installation notes live in `adapters/`; this file remains the shared behavior contract.
 
 ## Core Rules
 
