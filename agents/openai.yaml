@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mac Storage Cleanup"
+  short_description: "Diagnose and safely clean macOS disk usage"
+  brand_color: "#2563EB"
+  default_prompt: "Use $mac-storage-cleanup to audit my Mac storage, rank cleanup candidates, and safely clear approved items."

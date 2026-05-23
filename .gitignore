@@ -1,0 +1,24 @@
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Local audit outputs and machine-specific reports
+audit-output/
+reports/
+tmp/
+
+# Python / shell caches
+__pycache__/
+.pytest_cache/
+
+# Editor and local environment files
+.idea/
+.vscode/
+.env
+.env.*
+
+# Packaged artifacts
+*.zip
+*.tar.gz
