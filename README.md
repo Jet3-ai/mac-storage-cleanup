@@ -22,6 +22,8 @@ mkdir -p ~/.codex/skills
 git clone https://github.com/<owner>/mac-storage-cleanup.git ~/.codex/skills/mac-storage-cleanup
 ```
 
+Replace `<owner>` with the repository owner shown in the GitHub URL, or use the clone URL from GitHub's **Code** button.
+
 Restart Codex after installing the skill so it can be discovered.
 
 Then invoke it naturally, for example:
